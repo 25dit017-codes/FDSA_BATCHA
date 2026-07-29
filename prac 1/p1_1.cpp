@@ -1,24 +1,47 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
+int main() {
+
     int n;
-    cin >> n;
+    cout<<"Enter the total number of items(n):\t";
+    cin>>n;
+
     int arr[n];
-    for(int i = 0; i < n; i++)
-        cin >> arr[i];
-    int h;
-    cin >> h;
-    h = h % n;
-    for(int i = 0; i < h; i++)
-    {
-        int first = arr[0];
-        for(int j = 0; j < n - 1; j++)
-            arr[j] = arr[j + 1];
-        arr[n - 1] = first;
+    cout<<"Enter the elemnets\n";
+    for(int i = 0; i < n;i++){
+        cout<<"enter element number "<<i+1<<" :\t";
+        cin>>arr[i];
     }
-    for(int i = 0; i < n; i++)
-        cout << arr[i] << " ";
+
+    int k ; 
+    cout<<"enter the number of hours(h) :\t";
+    cin>>k;
+
+    //for scaling
+    k = k % n; 
+    if(k != 0 ){
+
+    for (int rotation = 0; rotation < k; rotation++) {
+        int last_element = arr[n - 1];
+        
+        for (int i = n - 1; i > 0; i--) {
+            arr[i] = arr[i - 1];
+        }
+        
+        arr[0] = last_element;
+    }
+
+    
+    for (int i = 0; i < n; i++) {
+        std::cout << arr[i] << " ";
+    }
+    }
+    else{
+        for (int i = 0; i < n; i++) {
+        std::cout << arr[i] << " ";
+    }
+    }
+    
     return 0;
 }
