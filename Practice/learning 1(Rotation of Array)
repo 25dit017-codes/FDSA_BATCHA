@@ -1,0 +1,7 @@
+when i started the Practical 1:
+
+1.1 :
+
+  a. i leaned that how to rotation of the elements works.
+  b. first i was confused in the that how can i efficiently store the elemts so that while rearranging an array i dont end up         blundering with the indexes and the elemts those indexes conataining them.
+  c. while doing the rotation i got to know that the integral multiple f total number of itmes(n) will arrange the eelemts in         such manner that it will have no impact of the rotation ,so for perfroming the roatation for a very large number of            times we just need to find the remainder of h wrt n ,so this will reduce the time complexity and our program will               become efficient .
