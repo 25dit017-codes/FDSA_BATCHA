@@ -1,0 +1,8 @@
+Practical 1.3 – Longest Word in a Sentence
+1.3 :
+
+a. I learned how to process a complete sentence word by word and compare the length of each word to find the longest one.
+
+b. Initially I was confused about how to separate words from a sentence without using extra functions. I also didn't know how to process the last word because there is no space after it.
+
+c. While solving this problem, I understood that adding an extra space at the end of the sentence makes the last word get processed automatically. I also learned that my program keeps the first longest word when two words have the same length because the longest word is updated only when a strictly longer word is found.
