@@ -1,0 +1,8 @@
+Practical 2.1 – Linear Search (Iterative & Recursive)
+2.1 :
+
+a. I learned how the linear search algorithm works in both iterative and recursive approaches to find a target element in a list.
+
+b. At first I was confused about how recursion continues searching without using a loop. It was difficult for me to understand how the index changes after every recursive function call.
+
+c. While implementing both approaches, I realized that the iterative method uses a loop whereas the recursive method uses function calls to achieve the same result. I also observed that since the search stops immediately after finding the target, my program returns the first occurrence of the element if it appears more than once.
