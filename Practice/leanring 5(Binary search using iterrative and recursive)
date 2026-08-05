@@ -1,0 +1,8 @@
+Practical 2.2 – Binary Search (Iterative & Recursive)
+2.2 :
+
+a. I learned how binary search reduces the search space by checking the middle element and repeatedly dividing the array into two halves.
+
+b. Initially I was confused about updating the low and high indices correctly because a small mistake in those values could lead to incorrect results or an infinite loop.
+
+c. While implementing binary search, I understood that this algorithm works correctly only when the input array is sorted. I also learned that by eliminating half of the search space after every comparison, binary search is much faster than linear search for large datasets, giving it a time complexity of O(log n) instead of O(n).
