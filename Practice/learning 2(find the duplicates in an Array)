@@ -1,0 +1,8 @@
+Practical 1.2 – Finding Repeated Book IDs
+1.2 :
+
+a. I learned how to find the duplicate elements in an array by comparing each element with every other element and printing only the unique repeated values.
+
+b. At first I was confused about how to avoid printing the same book ID multiple times because if an element appears more than twice, it can easily get printed again and again.
+
+c. While implementing this program, I understood that checking whether an element has already been printed before displaying it helps in avoiding duplicate outputs. I also realized that this approach scans the array multiple times, so although it works correctly, it is not very efficient for a very large number of records. Using a hash map or frequency array can reduce the number of passes and improve the overall time complexity.
